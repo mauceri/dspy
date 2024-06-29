@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "description": {
+            "description": "une des descriptions suivantes : [\\"Requ\\u00eate d\'interrogation d\'un syst\\u00e8me d\'information\\", \\"Requ\\u00eate d\'\\u00e9criture d\'un programme Python\\", \\"Requ\\u00eate d\'application d\'un raisonnement logique ou math\\u00e9matique\\", \'Requ\\u00eate de r\\u00e9daction de textes\', \\"Requ\\u00eate de mise \\u00e0 jour d\'un code\\", \'Requ\\u00eate inclassifiable\']", 
+            "title": "Description", 
+            "type": "string"
+        }, 
+        "code": {
+            "description": "Le code correspondant \\u00e0 la description comme indiqu\\u00e9 ici :\\n!inf pour la description Requ\\u00eate d\'interrogation d\'un syst\\u00e8me d\'information\\n!py pour la description Requ\\u00eate d\'\\u00e9criture d\'un programme Python\\n!log pour la description Requ\\u00eate d\'application d\'un raisonnement logique ou math\\u00e9matique\\n!red pour la description Requ\\u00eate de r\\u00e9daction de textes\\n!cal pour la description Requ\\u00eate de mise \\u00e0 jour d\'un code\\n!inc pour la description Requ\\u00eate inclassifiable\\n", 
+            "title": "Code", 
+            "type": "string"
+        }
+    }, 
+    "required": ["description", "code"], 
+    "title": "Cat\\u00e9gorie", 
+    "type": "object"
+} ', '__dspy_field_type': 'output', 'prefix': 'Description Catégorie:', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x126e4a160>, 'parser': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x126d10b80>}
